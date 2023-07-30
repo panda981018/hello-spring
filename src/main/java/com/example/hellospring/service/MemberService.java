@@ -2,7 +2,6 @@ package com.example.hellospring.service;
 
 import com.example.hellospring.domain.Member;
 import com.example.hellospring.repository.MemberRepository;
-import com.example.hellospring.repository.MemoryMemberRepository;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,7 +9,7 @@ import java.util.Optional;
 public class MemberService {
 
     private final MemberRepository memberRepository;
-
+    
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }

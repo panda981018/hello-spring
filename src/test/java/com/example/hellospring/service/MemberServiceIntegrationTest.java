@@ -23,7 +23,7 @@ class MemberServiceIntegrationTest {
     void 회원가입() {
         // given : 데이터
         Member member = new Member();
-        member.setName("spring1");
+        member.setName("spring");
 
         // when : 조건
         Long saveId = memberService.join(member);
